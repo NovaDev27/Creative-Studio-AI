@@ -1,0 +1,268 @@
+{
+  "common": {
+    "save": "Preservar",
+    "cancel": "Desistir",
+    "delete": "Descartar",
+    "edit": "Aprimorar",
+    "loading": "Preparando o café...",
+    "back": "Voltar",
+    "next": "Próximo",
+    "finish": "Finalizar",
+    "of": "de",
+    "copy": "Copiar",
+    "copied": "Preservado!",
+    "copy_link": "Copiar Endereço",
+    "error": "Erro",
+    "success": "Sucesso"
+  },
+  "home": {
+    "tagline": "“Escreva sua história como se estivesse em uma cafeteria em Kyoto.”",
+    "create_work": "Criar Nova Obra",
+    "my_library": "Minha Biblioteca",
+    "login": "Entrar",
+    "cards": {
+      "create": {
+        "title": "Iniciar Manuscrito",
+        "desc": "Dê vida ao seu primeiro parágrafo"
+      },
+      "library": {
+        "title": "Estante Pessoal",
+        "desc": "Onde repousam seus manuscritos"
+      },
+      "explore": {
+        "title": "Sussurros do Oráculo",
+        "desc": "Novos horizontes sugeridos pela inteligência"
+      },
+      "focus": {
+        "title": "Retiro de Escrita",
+        "desc": "O silêncio necessário para a criação"
+      }
+    }
+  },
+  "editor": {
+    "chapters": "Capítulos",
+    "add_chapter": "Adicionar Capítulo",
+    "ai_assistant": "Oráculo de Ideias",
+    "characters": "Personagens",
+    "world": "Mundo",
+    "focus_mode": "Modo Foco",
+    "save_success": "Seu manuscrito foi preservado",
+    "cover_concept": "Conceito de Capa",
+    "view_art": "Visualizar arte da obra",
+    "generating_prompt": "Gerando prompt...",
+    "ai_credits": "Tinta do Oráculo",
+    "lifetime": "Infinitos",
+    "get_more_credits": "Reabastecer Tinta",
+    "reload_now": "Reabastecer Agora",
+    "ambient": "Ambiente",
+    "silence": "Silêncio",
+    "ai_suggestion_title": "Sugestão do Oráculo",
+    "original": "Original",
+    "suggestion": "Sugestão",
+    "discard": "Descartar",
+    "apply_changes": "Aplicar Mudanças",
+    "generate_new_version": "Gerar Nova Versão",
+    "apply_this_cover": "Aplicar esta Capa",
+    "cover_prompt_label": "Prompt da Capa",
+    "manifesting_new_version": "Manifestando nova versão...",
+    "rich_text_active": "Escrita Enriquecida Ativa",
+    "char_placeholder": "Descrição, papel e personalidade...",
+    "world_placeholder": "Descreva seu mundo em detalhes...",
+    "generate_profile": "Revelar Essência com o Oráculo",
+    "ai_actions": {
+      "rewriteChapter": {
+        "label": "Refinar Manuscrito",
+        "desc": "O Oráculo irá reescrever o capítulo inteiro, aprimorando a fluidez e o estilo sem perder sua essência."
+      },
+      "expand": {
+        "label": "Florescer Narrativa",
+        "desc": "Adiciona detalhes sensoriais, descrições ricas e profundidade ao trecho selecionado."
+      },
+      "continueWriting": {
+        "label": "Seguir o Fio",
+        "desc": "A inteligência analisa o que foi escrito e sugere a continuação natural da cena."
+      },
+      "rewrite": {
+        "label": "Polir Trecho",
+        "desc": "Reescreve o trecho selecionado para torná-lo mais elegante e impactante."
+      },
+      "dialogue": {
+        "label": "Dar Voz",
+        "desc": "Aprimora os diálogos, tornando as falas mais naturais e distintas para cada personagem."
+      },
+      "emotion": {
+        "label": "Infundir Sentimento",
+        "desc": "Intensifica a carga emocional do texto, mergulhando nos sentimentos e reações internas."
+      }
+    }
+  },
+  "library": {
+    "title": "Sua Coleção de Obras",
+    "refuge": "Refúgio de",
+    "credits": "Seus Créditos",
+    "remaining": "restantes",
+    "upgrade": "Acesso Eterno",
+    "new_work": "Novo Manuscrito",
+    "logout": "Sair",
+    "search_placeholder": "Buscar em seus manuscritos...",
+    "empty_title": "Sua prateleira aguarda a primeira obra",
+    "empty_desc": "O papel em branco é o convite para um novo mundo.",
+    "create_first": "Iniciar Primeira Obra",
+    "delete_confirm": "Deseja realmente excluir esta obra?",
+    "no_synopsis": "Sem sinopse ainda...",
+    "updated": "Atualizado"
+  },
+  "create": {
+    "title": "Novo Manuscrito",
+    "subtitle": "O início de uma nova crônica",
+    "work_title": "Título da Obra",
+    "placeholder_title": "Ex: O Segredo de Kyoto",
+    "type": "Tipo",
+    "placeholder_type": "Ex: Romance, Mangá, Roteiro...",
+    "genres": "Gêneros",
+    "theme": "Tema/Atmosfera",
+    "placeholder_theme": "Ex: Cyberpunk, Fantasia Medieval...",
+    "description": "Visão Inicial",
+    "placeholder_description": "Um breve resumo do que você tem em mente...",
+    "generate": "Manifestar Manuscrito",
+    "generating": "Manifestando...",
+    "login": {
+      "welcome": "Bem-vindo ao KŌHĪRA",
+      "subtitle": "O silêncio e o café esperam por suas palavras.",
+      "footer": "Sua jornada literária começa com um clique.",
+      "google_button": "Entrar com Google"
+    },
+    "upgrade": {
+      "title": "Manuscrito Eterno",
+      "description": "Com uma única contribuição de R$ 34,90, suas palavras jamais encontrarão fim. Desbloqueie a eternidade no KŌHĪRA.",
+      "special_offer": "Oferta Especial",
+      "pay_button": "Adquirir Acesso Vitalício",
+      "scan_to_pay": "Aponte sua lente para contribuir",
+      "qr_instructions": "Utilize a câmera do seu aparelho para ler o código acima e selar seu compromisso com a escrita eterna.",
+      "benefits": {
+        "unlimited_credits": "Inspiração infinita da nossa inteligência",
+        "all_themes": "Todas as estéticas e caligrafias disponíveis",
+        "export_formats": "Leve seus manuscritos para qualquer lugar",
+        "priority_support": "Atenção especial dos nossos bibliotecários",
+        "no_subscriptions": "Um único acerto, sem cobranças futuras"
+      }
+    },
+    "insufficient_credits": "Créditos insuficientes para gerar uma nova obra.",
+    "skip_genres": "Pular Gêneros",
+    "types": {
+      "book": "Livro",
+      "light_novel": "Light Novel",
+      "web_novel": "Web Novel",
+      "fanfiction": "Fanfiction",
+      "short_story": "Conto",
+      "chronicle": "Crônica",
+      "fable": "Fábula",
+      "poem": "Poema",
+      "haiku": "Haiku",
+      "biography": "Biografia",
+      "autobiography": "Autobiografia",
+      "epistolary": "Epistolar"
+    },
+    "steps": {
+      "type": "Tipo de Obra",
+      "language": "Idioma",
+      "title": "Título",
+      "description": "O que você realmente quer para a obra?",
+      "subtitle": "Subtítulo",
+      "genres": "Gêneros & Subgêneros",
+      "mood": "Mood da Obra",
+      "theme": "Tema Central",
+      "style": "Estilo de Escrita",
+      "pov": "Ponto de Vista (POV)",
+      "timeline": "Linha do Tempo",
+      "setting": "Ambientação",
+      "world_desc": "Descreva o Mundo",
+      "world_scope": "Escopo do Mundo",
+      "system": "Sistema",
+      "characters": "Personagens Principais",
+      "conflict": "Conflito Principal",
+      "arc": "Arco Narrativo",
+      "chapters_count": "Quantidade de Capítulos",
+      "pages_count": "Tamanho da Obra (Páginas)",
+      "pacing": "Ritmo da História",
+      "aesthetic": "Estética da Página",
+      "cover_style": "Estilo de Capa",
+      "review": "Revisão Final"
+    },
+    "languages": {
+      "pt": "Português",
+      "en": "Inglês",
+      "jp": "Japonês",
+      "es": "Espanhol",
+      "fr": "Francês"
+    },
+    "placeholders": {
+      "title": "Ex: O Silêncio das Sakuras",
+      "description": "Descreva sua visão, a essência da história e o que não pode faltar...",
+      "subtitle": "Ex: Uma jornada de redenção",
+      "theme": "Ex: Redenção, Amor Proibido, Vingança",
+      "setting": "Ex: Tóquio Futurista, Reino de Eldoria",
+      "world_desc": "Descreva detalhes do mundo, geografia, regras, cultura...",
+      "characters": "Descreva os personagens que você imagina. A IA gerará os detalhes psicológicos, papéis e personalidades automaticamente.",
+      "conflict": "Ex: Uma guerra civil iminente"
+    },
+    "styles": {
+      "poetic": "Poético",
+      "direct": "Direto",
+      "descriptive": "Descritivo",
+      "minimalist": "Minimalist",
+      "humorous": "Humorístico",
+      "cynical": "Cínico"
+    },
+    "povs": {
+      "first": "1ª Pessoa",
+      "third_limited": "3ª Pessoa Limitada",
+      "third_omniscient": "3ª Pessoa Onisciente",
+      "second": "2ª Pessoa"
+    },
+    "timelines": {
+      "linear": "Linear",
+      "non_linear": "Não-Linear",
+      "past": "Passado",
+      "future": "Futuro",
+      "alternating": "Alternado"
+    },
+    "scopes": {
+      "local": "Local (Uma vila)",
+      "regional": "Regional (Um país)",
+      "global": "Global (O mundo todo)",
+      "universal": "Universal (Galáxias)"
+    },
+    "systems": {
+      "soft_magic": "Magia Suave",
+      "hard_magic": "Magia Rígida",
+      "advanced_tech": "Tecnologia Avançada",
+      "realistic": "Realista",
+      "supernatural": "Sobrenatural"
+    },
+    "arcs": {
+      "rise": "Ascensão",
+      "fall": "Queda",
+      "redemption": "Redenção",
+      "tragedy": "Tragédia",
+      "growth": "Crescimento"
+    },
+    "pacing": {
+      "slow": "Lento (Contemplativo)",
+      "moderate": "Moderado",
+      "fast": "Rápido (Frenético)"
+    },
+    "aesthetics": {
+      "creme": "Creme (Clássico)",
+      "night": "Noite (Escuro)",
+      "sakura": "Sakura (Rosa)",
+      "sepia": "Sépia (Antigo)"
+    },
+    "cover_styles": {
+      "minimalist": "Minimalista",
+      "anime": "Ilustração Anime",
+      "lofi": "Fotografia Lofi",
+      "typography": "Tipografia"
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "back": "Back",
+    "next": "Next",
+    "finish": "Finish",
+    "of": "of",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "error": "Error",
+    "success": "Success"
+  },
+  "home": {
+    "tagline": "“Write your story as if you were in a coffee shop in Kyoto.”",
+    "create_work": "Create New Work",
+    "my_library": "My Library",
+    "login": "Login",
+    "cards": {
+      "create": {
+        "title": "Create Work",
+        "desc": "Start your creative journey"
+      },
+      "library": {
+        "title": "Library",
+        "desc": "Your stored stories"
+      },
+      "explore": {
+        "title": "Explore Ideas",
+        "desc": "AI suggests new worlds"
+      },
+      "focus": {
+        "title": "Focus Mode",
+        "desc": "Write without distractions"
+      }
+    }
+  },
+  "editor": {
+    "chapters": "Chapters",
+    "add_chapter": "Add Chapter",
+    "ai_assistant": "AI Assistant",
+    "characters": "Characters",
+    "world": "World",
+    "focus_mode": "Focus Mode",
+    "save_success": "Work saved successfully",
+    "cover_concept": "Cover Concept",
+    "view_art": "View work art",
+    "generating_prompt": "Generating prompt...",
+    "ai_credits": "AI Credits",
+    "lifetime": "Infinite",
+    "get_more_credits": "Get more credits",
+    "reload_now": "Reload now",
+    "ambient": "Ambient",
+    "silence": "Silence",
+    "ai_suggestion_title": "Oracle's Suggestion",
+    "original": "Original",
+    "suggestion": "Suggestion",
+    "discard": "Discard",
+    "apply_changes": "Apply Changes",
+    "generate_new_version": "Generate New Version",
+    "apply_this_cover": "Apply this Cover",
+    "cover_prompt_label": "Cover Prompt",
+    "manifesting_new_version": "Manifesting new version...",
+    "rich_text_active": "Rich Text Active",
+    "char_placeholder": "Description, role and personality...",
+    "world_placeholder": "Describe your world in detail...",
+    "generate_profile": "Generate Profile with AI"
+  },
+  "library": {
+    "title": "Your Library",
+    "refuge": "Refuge of",
+    "credits": "Your Credits",
+    "remaining": "remaining",
+    "upgrade": "Upgrade",
+    "new_work": "New Work",
+    "logout": "Logout",
+    "search_placeholder": "Search in your manuscripts...",
+    "empty_title": "Your shelf is empty",
+    "empty_desc": "How about starting a new story today?",
+    "create_first": "Create First Manuscript",
+    "delete_confirm": "Do you really want to delete this work?",
+    "no_synopsis": "No synopsis yet...",
+    "updated": "Updated"
+  },
+  "create": {
+    "title": "New Work",
+    "subtitle": "The first step of your journey",
+    "work_title": "Work Title",
+    "placeholder_title": "Ex: The Secret of Kyoto",
+    "type": "Type",
+    "placeholder_type": "Ex: Novel, Manga, Script...",
+    "genres": "Genres",
+    "theme": "Theme/Atmosphere",
+    "placeholder_theme": "Ex: Cyberpunk, Medieval Fantasy...",
+    "description": "Initial Vision",
+    "placeholder_description": "A brief summary of what you have in mind...",
+    "generate": "Generate Work",
+    "generating": "Generating...",
+    "login": {
+      "welcome": "Welcome to KŌHĪRA",
+      "subtitle": "Silence and coffee await your words.",
+      "footer": "Your literary journey begins with a click."
+    },
+    "upgrade": {
+      "title": "Lifetime Access",
+      "description": "Pay $34.90 once and have infinite credits forever in KŌHĪRA.",
+      "special_offer": "Special Offer",
+      "pay_button": "Pay with Pix now",
+      "scan_to_pay": "Scan to pay",
+      "qr_instructions": "Point your phone's camera at the QR Code above to complete the payment via Pix.",
+      "benefits": {
+        "unlimited_credits": "Unlimited AI credits",
+        "all_themes": "Access to all themes and fonts",
+        "export_formats": "Export in multiple formats",
+        "priority_support": "Priority support",
+        "no_subscriptions": "No monthly fees, ever"
+      }
+    },
+    "insufficient_credits": "Insufficient credits to generate a new work.",
+    "skip_genres": "Skip Genres",
+    "types": {
+      "book": "Book",
+      "light_novel": "Light Novel",
+      "web_novel": "Web Novel",
+      "fanfiction": "Fanfiction",
+      "short_story": "Short Story",
+      "chronicle": "Chronicle",
+      "fable": "Fable",
+      "poem": "Poem",
+      "haiku": "Haiku",
+      "biography": "Biography",
+      "autobiography": "Autobiography",
+      "epistolary": "Epistolary"
+    },
+    "steps": {
+      "type": "Work Type",
+      "language": "Language",
+      "title": "Title",
+      "description": "What do you really want for the work?",
+      "subtitle": "Subtitle",
+      "genres": "Genres & Subgenres",
+      "mood": "Work Mood",
+      "theme": "Central Theme",
+      "style": "Writing Style",
+      "pov": "Point of View (POV)",
+      "timeline": "Timeline",
+      "setting": "Setting",
+      "world_desc": "Describe the World",
+      "world_scope": "World Scope",
+      "system": "System",
+      "characters": "Main Characters",
+      "conflict": "Main Conflict",
+      "arc": "Narrative Arc",
+      "chapters_count": "Chapters Count",
+      "pages_count": "Work Size (Pages)",
+      "pacing": "Story Pacing",
+      "aesthetic": "Page Aesthetic",
+      "cover_style": "Cover Style",
+      "review": "Final Review"
+    },
+    "languages": {
+      "pt": "Portuguese",
+      "en": "English",
+      "jp": "Japanese",
+      "es": "Spanish",
+      "fr": "French"
+    },
+    "placeholders": {
+      "title": "Ex: The Silence of the Sakuras",
+      "description": "Describe your vision, the essence of the story and what cannot be missing...",
+      "subtitle": "Ex: A journey of redemption",
+      "theme": "Ex: Redemption, Forbidden Love, Revenge",
+      "setting": "Ex: Futuristic Tokyo, Kingdom of Eldoria",
+      "world_desc": "Describe world details, geography, rules, culture...",
+      "characters": "Describe the characters you imagine. AI will generate psychological details, roles and personalities automatically.",
+      "conflict": "Ex: An imminent civil war"
+    },
+    "styles": {
+      "poetic": "Poetic",
+      "direct": "Direct",
+      "descriptive": "Descriptive",
+      "minimalist": "Minimalist",
+      "humorous": "Humorous",
+      "cynical": "Cynical"
+    },
+    "povs": {
+      "first": "1st Person",
+      "third_limited": "3rd Person Limited",
+      "third_omniscient": "3rd Person Omniscient",
+      "second": "2nd Person"
+    },
+    "timelines": {
+      "linear": "Linear",
+      "non_linear": "Non-Linear",
+      "past": "Past",
+      "future": "Future",
+      "alternating": "Alternating"
+    },
+    "scopes": {
+      "local": "Local (A village)",
+      "regional": "Regional (A country)",
+      "global": "Global (The whole world)",
+      "universal": "Universal (Galaxies)"
+    },
+    "systems": {
+      "soft_magic": "Soft Magic",
+      "hard_magic": "Hard Magic",
+      "advanced_tech": "Advanced Technology",
+      "realistic": "Realistic",
+      "supernatural": "Supernatural"
+    },
+    "arcs": {
+      "rise": "Rise",
+      "fall": "Fall",
+      "redemption": "Redemption",
+      "tragedy": "Tragedy",
+      "growth": "Growth"
+    },
+    "pacing": {
+      "slow": "Slow (Contemplative)",
+      "moderate": "Moderate",
+      "fast": "Fast (Frenetic)"
+    },
+    "aesthetics": {
+      "creme": "Creme (Classic)",
+      "night": "Night (Dark)",
+      "sakura": "Sakura (Pink)",
+      "sepia": "Sepia (Old)"
+    },
+    "cover_styles": {
+      "minimalist": "Minimalist",
+      "anime": "Anime Illustration",
+      "lofi": "Lofi Photography",
+      "typography": "Typography"
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "loading": "Cargando...",
+    "back": "Volver",
+    "next": "Siguiente",
+    "finish": "Finalizar",
+    "of": "de",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "error": "Error",
+    "success": "Éxito"
+  },
+  "home": {
+    "tagline": "“Escribe tu historia como si estuvieras en una cafetería en Kioto.”",
+    "create_work": "Crear Nueva Obra",
+    "my_library": "Mi Biblioteca",
+    "login": "Entrar",
+    "cards": {
+      "create": {
+        "title": "Crear Obra",
+        "desc": "Inicia tu viaje creativo"
+      },
+      "library": {
+        "title": "Biblioteca",
+        "desc": "Tus historias guardadas"
+      },
+      "explore": {
+        "title": "Explorar Ideas",
+        "desc": "IA sugiere nuevos mundos"
+      },
+      "focus": {
+        "title": "Modo Foco",
+        "desc": "Escribe sin distracciones"
+      }
+    }
+  },
+  "editor": {
+    "chapters": "Capítulos",
+    "add_chapter": "Añadir Capítulo",
+    "ai_assistant": "Asistente IA",
+    "characters": "Personajes",
+    "world": "Mundo",
+    "focus_mode": "Modo Foco",
+    "save_success": "Obra guardada con éxito",
+    "cover_concept": "Concepto de Portada",
+    "view_art": "Visualizar arte de la obra",
+    "generating_prompt": "Generando prompt...",
+    "ai_credits": "Créditos IA",
+    "lifetime": "Infinitos",
+    "get_more_credits": "Obtener más créditos",
+    "reload_now": "Recargar Ahora",
+    "ambient": "Ambiente",
+    "silence": "Silencio",
+    "ai_suggestion_title": "Sugerencia del Oráculo",
+    "original": "Original",
+    "suggestion": "Sugerencia",
+    "discard": "Descartar",
+    "apply_changes": "Aplicar Cambios",
+    "generate_new_version": "Generar Nueva Versión",
+    "apply_this_cover": "Aplicar esta Portada",
+    "cover_prompt_label": "Prompt de la Portada",
+    "manifesting_new_version": "Manifestando nueva versión...",
+    "rich_text_active": "Rich Text Activo",
+    "char_placeholder": "Descripción, papel y personalidad...",
+    "world_placeholder": "Describe tu mundo en detalle...",
+    "generate_profile": "Generar Perfil con IA"
+  },
+  "library": {
+    "title": "Tu Biblioteca",
+    "refuge": "Refugio de",
+    "credits": "Tus Créditos",
+    "remaining": "restantes",
+    "upgrade": "Upgrade",
+    "new_work": "Nueva Obra",
+    "logout": "Salir",
+    "search_placeholder": "Buscar en tus manuscritos...",
+    "empty_title": "Tu estantería está vacía",
+    "empty_desc": "¿Qué tal empezar una nueva historia hoy?",
+    "create_first": "Crear Primer Manuscrito",
+    "delete_confirm": "¿Realmente deseas eliminar esta obra?",
+    "no_synopsis": "Sin sinopsis aún...",
+    "updated": "Actualizado"
+  },
+  "create": {
+    "title": "Nueva Obra",
+    "subtitle": "El primer paso de tu viaje",
+    "work_title": "Título de la Obra",
+    "placeholder_title": "Ej: El Secreto de Kioto",
+    "type": "Tipo",
+    "placeholder_type": "Ej: Novela, Manga, Guion...",
+    "genres": "Géneros",
+    "theme": "Tema/Atmósfera",
+    "placeholder_theme": "Ej: Cyberpunk, Fantasía Medieval...",
+    "description": "Visión Inicial",
+    "placeholder_description": "Un breve resumen de lo que tienes en mente...",
+    "generate": "Generar Obra",
+    "generating": "Generando...",
+    "login": {
+      "welcome": "Bienvenido a KŌHĪRA",
+      "subtitle": "El silencio y el café esperan tus palabras.",
+      "footer": "Tu viaje literario comienza con un clic."
+    },
+    "upgrade": {
+      "title": "Acceso Vitalicio",
+      "description": "Paga $34.90 una vez y ten créditos infinitos para siempre en KŌHĪRA.",
+      "special_offer": "Oferta Especial",
+      "pay_button": "Pagar con Pix ahora",
+      "scan_to_pay": "Escanea para pagar",
+      "qr_instructions": "Apunta la cámara de tu celular al código QR de arriba para completar el pago vía Pix.",
+      "benefits": {
+        "unlimited_credits": "Créditos de IA ilimitados",
+        "all_themes": "Acceso a todos los temas y fuentes",
+        "export_formats": "Exportación en múltiples formatos",
+        "priority_support": "Soporte prioritario",
+        "no_subscriptions": "Sin cuotas mensuales, nunca"
+      }
+    },
+    "insufficient_credits": "Créditos insuficientes para generar una nueva obra.",
+    "skip_genres": "Omitir Géneros",
+    "types": {
+      "book": "Libro",
+      "light_novel": "Light Novel",
+      "web_novel": "Web Novel",
+      "fanfiction": "Fanfiction",
+      "short_story": "Cuento",
+      "chronicle": "Crónica",
+      "fable": "Fábula",
+      "poem": "Poema",
+      "haiku": "Haiku",
+      "biography": "Biografía",
+      "autobiography": "Autobiografía",
+      "epistolary": "Epistolar"
+    },
+    "steps": {
+      "type": "Tipo de Obra",
+      "language": "Idioma",
+      "title": "Título",
+      "description": "¿Qué es lo que realmente quieres para la obra?",
+      "subtitle": "Subtítulo",
+      "genres": "Géneros & Subgéneros",
+      "mood": "Estado de ánimo de la obra",
+      "theme": "Tema Central",
+      "style": "Estilo de Escritura",
+      "pov": "Punto de Vista (POV)",
+      "timeline": "Línea de Tiempo",
+      "setting": "Ambientación",
+      "world_desc": "Describe el Mundo",
+      "world_scope": "Alcance del Mundo",
+      "system": "Sistema",
+      "characters": "Personajes Principales",
+      "conflict": "Conflicto Principal",
+      "arc": "Arco Narrativo",
+      "chapters_count": "Cantidad de Capítulos",
+      "pages_count": "Tamaño de la Obra (Páginas)",
+      "pacing": "Ritmo de la Historia",
+      "aesthetic": "Estética de la Página",
+      "cover_style": "Estilo de Portada",
+      "review": "Revisión Final"
+    },
+    "languages": {
+      "pt": "Portugués",
+      "en": "Inglés",
+      "jp": "Japonés",
+      "es": "Español",
+      "fr": "Francés"
+    },
+    "placeholders": {
+      "title": "Ej: El Silencio de las Sakuras",
+      "description": "Describe tu visión, la esencia de la historia y lo que no puede faltar...",
+      "subtitle": "Ej: Un viaje de redención",
+      "theme": "Ej: Redención, Amor Prohibido, Venganza",
+      "setting": "Ej: Tokio Futurista, Reino de Eldoria",
+      "world_desc": "Describe detalles do mundo, geografía, reglas, cultura...",
+      "characters": "Describe los personajes que imaginas. La IA generará los detalles psicológicos, roles y personalidades automáticamente.",
+      "conflict": "Ej: Una guerra civil inminente"
+    },
+    "styles": {
+      "poetic": "Poético",
+      "direct": "Directo",
+      "descriptive": "Descriptivo",
+      "minimalist": "Minimalista",
+      "humorous": "Humorístico",
+      "cynical": "Cínico"
+    },
+    "povs": {
+      "first": "1ª Persona",
+      "third_limited": "3ª Persona Limitada",
+      "third_omniscient": "3ª Persona Omnisciente",
+      "second": "2ª Persona"
+    },
+    "timelines": {
+      "linear": "Lineal",
+      "non_linear": "No Lineal",
+      "past": "Pasado",
+      "future": "Futuro",
+      "alternating": "Alternado"
+    },
+    "scopes": {
+      "local": "Local (Una aldea)",
+      "regional": "Regional (Un país)",
+      "global": "Global (Todo el mundo)",
+      "universal": "Universal (Galaxias)"
+    },
+    "systems": {
+      "soft_magic": "Magia Suave",
+      "hard_magic": "Magia Rígida",
+      "advanced_tech": "Tecnología Avanzada",
+      "realistic": "Realista",
+      "supernatural": "Sobrenatural"
+    },
+    "arcs": {
+      "rise": "Ascenso",
+      "fall": "Caída",
+      "redemption": "Redención",
+      "tragedy": "Tragedia",
+      "growth": "Crecimiento"
+    },
+    "pacing": {
+      "slow": "Lento (Contemplativo)",
+      "moderate": "Moderado",
+      "fast": "Rápido (Frenético)"
+    },
+    "aesthetics": {
+      "creme": "Crema (Clásico)",
+      "night": "Noche (Oscuro)",
+      "sakura": "Sakura (Rosa)",
+      "sepia": "Sepia (Antiguo)"
+    },
+    "cover_styles": {
+      "minimalist": "Minimalista",
+      "anime": "Ilustración Anime",
+      "lofi": "Fotografía Lofi",
+      "typography": "Tipografía"
+    }
+  }
+}

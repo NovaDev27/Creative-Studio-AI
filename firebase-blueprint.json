@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User profile information",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "User UID" },
+        "name": { "type": "string", "description": "User display name" },
+        "email": { "type": "string", "format": "email" },
+        "photoURL": { "type": "string", "description": "User profile picture URL" },
+        "credits": { "type": "number", "description": "Remaining AI credits" },
+        "isLifetime": { "type": "boolean", "description": "Whether the user has lifetime access" },
+        "dailyWordCount": { "type": "number", "description": "Words written today" },
+        "lastWordCountDate": { "type": "string", "description": "Date of last word count update" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid", "email"]
+    },
+    "Work": {
+      "title": "Work",
+      "description": "A literary work created by a user",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "description": { "type": "string" },
+        "type": { "type": "string" },
+        "genres": { "type": "array", "items": { "type": "string" } },
+        "mood": { "type": "string" },
+        "theme": { "type": "string" },
+        "style": { "type": "string" },
+        "pov": { "type": "string" },
+        "setting": { "type": "string" },
+        "conflict": { "type": "string" },
+        "arc": { "type": "string" },
+        "chaptersCount": { "type": "number" },
+        "coverUrl": { "type": "string" },
+        "synopsis": { "type": "string" },
+        "worldDescription": { "type": "string" },
+        "worldLore": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "title"]
+    },
+    "Chapter": {
+      "title": "Chapter",
+      "description": "A chapter within a work",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "workId": { "type": "string" },
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "order": { "type": "number" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["workId", "title", "order"]
+    },
+    "Character": {
+      "title": "Character",
+      "description": "A character within a work",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "workId": { "type": "string" },
+        "name": { "type": "string" },
+        "age": { "type": "string" },
+        "appearance": { "type": "string" },
+        "personality": { "type": "string" },
+        "backstory": { "type": "string" },
+        "role": { "type": "string" },
+        "description": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["workId", "name"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profile data"
+    },
+    "/works/{workId}": {
+      "schema": "Work",
+      "description": "User's literary works"
+    },
+    "/works/{workId}/chapters/{chapterId}": {
+      "schema": "Chapter",
+      "description": "Chapters belonging to a specific work"
+    },
+    "/works/{workId}/characters/{characterId}": {
+      "schema": "Character",
+      "description": "Characters belonging to a specific work"
+    }
+  }
+}
